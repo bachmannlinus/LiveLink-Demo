@@ -1,0 +1,4133 @@
+[
+    {
+        "id": "5f4ad33e7a7afb18",
+        "type": "tab",
+        "label": "DALI-Demoboard TRILUX",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2d7c4b9cc3bf0ce1",
+        "type": "ui_tab",
+        "name": "DALI-Demoboard TRILUX",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "1ae5f941dae5f58b",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#ce0000",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#ce0000",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#ce0000",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#ff1b1b",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#ce0000",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD.MM.YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "858c0aea68258950",
+        "type": "ui_group",
+        "name": "Gruppe 1",
+        "tab": "2d7c4b9cc3bf0ce1",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8d1651090c8df419",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "",
+        "keyname": "",
+        "caname": "",
+        "servername": "",
+        "verifyservercert": false,
+        "alpnprotocol": ""
+    },
+    {
+        "id": "6620f865bc9d1edd",
+        "type": "ui_group",
+        "name": "Gruppe 2",
+        "tab": "2d7c4b9cc3bf0ce1",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6428582eb80bffc4",
+        "type": "ui_group",
+        "name": "Gruppe 3",
+        "tab": "2d7c4b9cc3bf0ce1",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2161bfa5adf8bc22",
+        "type": "ui_group",
+        "name": "Alle",
+        "tab": "2d7c4b9cc3bf0ce1",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "25ef01ac4bbb820e",
+        "type": "ui_group",
+        "name": "Gruppe 4",
+        "tab": "2d7c4b9cc3bf0ce1",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f2ff7f3b41dbe157",
+        "type": "ui_group",
+        "name": "Gruppe 5",
+        "tab": "2d7c4b9cc3bf0ce1",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d6274d94444edfde",
+        "type": "ui_group",
+        "name": "Gruppe 6",
+        "tab": "2d7c4b9cc3bf0ce1",
+        "order": 7,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c65dd294a06f284c",
+        "type": "ui_group",
+        "name": "Gruppe 7",
+        "tab": "2d7c4b9cc3bf0ce1",
+        "order": 8,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1a3328def66ff31e",
+        "type": "ui_group",
+        "name": "Gruppe 8",
+        "tab": "2d7c4b9cc3bf0ce1",
+        "order": 9,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "adbaa5a8a3dbf76d",
+        "type": "knxEasy-config",
+        "host": "192.168.1.27",
+        "port": "3671"
+    },
+    {
+        "id": "c52e3f39321601d4",
+        "type": "knxEasy-config",
+        "host": "192.168.1.193",
+        "port": "3671"
+    },
+    {
+        "id": "ddd05e7f5035b384",
+        "type": "ui_switch",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "An/Aus",
+        "tooltip": "",
+        "group": "2161bfa5adf8bc22",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 200,
+        "y": 2240,
+        "wires": [
+            [
+                "7dbd05de96374af8"
+            ]
+        ]
+    },
+    {
+        "id": "24d80eac4960ac07",
+        "type": "ui_slider",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "Helligkeit",
+        "tooltip": "",
+        "group": "2161bfa5adf8bc22",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "85",
+        "max": "254",
+        "step": 1,
+        "className": "",
+        "x": 200,
+        "y": 2280,
+        "wires": [
+            [
+                "263cfaaccac60c72"
+            ]
+        ]
+    },
+    {
+        "id": "d794332c36085e75",
+        "type": "ui_slider",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "Farbtemperatur",
+        "tooltip": "",
+        "group": "2161bfa5adf8bc22",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "2700",
+        "max": "6500",
+        "step": "100",
+        "className": "",
+        "x": 180,
+        "y": 2320,
+        "wires": [
+            [
+                "9dfe1285e0fa73f4"
+            ]
+        ]
+    },
+    {
+        "id": "7dbd05de96374af8",
+        "type": "link out",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "8179eb3f60d98c28",
+            "7016fa5849522d7e",
+            "51a79adde1f46894",
+            "df28b38ac5a60307",
+            "eb98ff92a2117c52",
+            "cb376c32d89d1433",
+            "cb7dfa7e556cb3fe",
+            "4e5070ced71b3fdf",
+            "c9a1cec58e8fb6ce",
+            "6047bcccb2798703",
+            "64c337d40e0a8ae1",
+            "290d3c65d2423e59"
+        ],
+        "x": 1135,
+        "y": 2240,
+        "wires": []
+    },
+    {
+        "id": "263cfaaccac60c72",
+        "type": "link out",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "df1e9b436b9bd80c",
+            "7877a3271bd2877f",
+            "57611057de631578",
+            "608069c9f6217695",
+            "2954a8133db37a44",
+            "7158b54b399153c8",
+            "fa9532fa28c4f6d5",
+            "a6d90bfe3060c209",
+            "8cc01941bbc4d1dc",
+            "f14e0b15a3ae136f",
+            "6ad7dc8f33557dc7",
+            "93944e7f45406aac"
+        ],
+        "x": 1135,
+        "y": 2280,
+        "wires": []
+    },
+    {
+        "id": "9dfe1285e0fa73f4",
+        "type": "link out",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "86de4d5f5374b76d",
+            "3cba5cc795eab2c5",
+            "97e300a5359da6ac",
+            "072e9f4eb79b21cf",
+            "b75bc1298d8875eb",
+            "1c05343acc7f34c5",
+            "5cf8fe93d6bcb72c",
+            "f6408832bf2c50b9",
+            "17ceadd8ca2c9e40",
+            "a862c60b90cbb3d7",
+            "9725282d984778f3",
+            "c57547c52588afa6"
+        ],
+        "x": 1135,
+        "y": 2320,
+        "wires": []
+    },
+    {
+        "id": "e12ec1f8dfa5b602",
+        "type": "inject",
+        "z": "5f4ad33e7a7afb18",
+        "name": "Gruppe 1",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "b8aaa4b9-2385-44c0-8b22-4ece0fd1150f",
+        "payloadType": "str",
+        "x": 240,
+        "y": 140,
+        "wires": [
+            [
+                "d7b68482b7fea774"
+            ]
+        ]
+    },
+    {
+        "id": "077d7c88f8c7f7d0",
+        "type": "inject",
+        "z": "5f4ad33e7a7afb18",
+        "name": "Gruppe 2",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "a9372520-0fce-4615-bad6-1ce8d93b3ef4",
+        "payloadType": "str",
+        "x": 240,
+        "y": 180,
+        "wires": [
+            [
+                "aa6eb5d9297dd3ae"
+            ]
+        ]
+    },
+    {
+        "id": "cff49ea06be64bdf",
+        "type": "inject",
+        "z": "5f4ad33e7a7afb18",
+        "name": "Gruppe 3",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "17526c94-ea28-4ccf-9400-1960e6776c2b",
+        "payloadType": "str",
+        "x": 240,
+        "y": 220,
+        "wires": [
+            [
+                "dc32d7435692d1cd"
+            ]
+        ]
+    },
+    {
+        "id": "2ef88d9f01bf5ed1",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var ip = flow.get('ip') || 0;\nip = msg.payload\nflow.set('ip', ip)\nmsg.payload = ip\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d7b68482b7fea774",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var firstGroup = flow.get('firstGroup') || 0;\nfirstGroup = msg.payload\nflow.set('firstGroup', firstGroup)\nmsg.payload = firstGroup\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aa6eb5d9297dd3ae",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var secondGroup = flow.get('secondGroup') || 0;\nsecondGroup = msg.payload\nflow.set('secondGroup', secondGroup)\nmsg.payload = secondGroup\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dc32d7435692d1cd",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var thirdGroup = flow.get('thirdGroup') || 0;\nthirdGroup = msg.payload\nflow.set('thirdGroup', thirdGroup)\nmsg.payload = thirdGroup\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "002c466a068d5d74",
+        "type": "ui_switch",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "An/Aus",
+        "tooltip": "",
+        "group": "f2ff7f3b41dbe157",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 240,
+        "y": 3160,
+        "wires": [
+            [
+                "a8550a1d83848676"
+            ]
+        ]
+    },
+    {
+        "id": "f61280395533bfa3",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('fifthGroup')+\"/onoff?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueOnOff');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 3160,
+        "wires": [
+            [
+                "7064b40b6e262efb"
+            ]
+        ]
+    },
+    {
+        "id": "877c52188a6015fe",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 910,
+        "y": 3160,
+        "wires": [
+            [
+                "f61280395533bfa3"
+            ]
+        ]
+    },
+    {
+        "id": "0441dc668572c5ee",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('fifthGroup')+\"/onoff?username=administrator\"+flow.get('valueOnOff')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 3160,
+        "wires": [
+            [
+                "877c52188a6015fe"
+            ]
+        ]
+    },
+    {
+        "id": "a8550a1d83848676",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueOnOff = flow.get('valueOnOff') || 0;\nvalueOnOff = \"{\\\"on\\\":\"+msg.payload+\"}\"\nflow.set('valueOnOff', valueOnOff)\nmsg.payload = valueOnOff\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 3160,
+        "wires": [
+            [
+                "0441dc668572c5ee"
+            ]
+        ]
+    },
+    {
+        "id": "7064b40b6e262efb",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1270,
+        "y": 3160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "daf31363c6c4fdb0",
+        "type": "ui_slider",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "Helligkeit",
+        "tooltip": "",
+        "group": "f2ff7f3b41dbe157",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "85",
+        "max": "254",
+        "step": 1,
+        "className": "",
+        "x": 240,
+        "y": 3340,
+        "wires": [
+            [
+                "f1fe76489ac3a803"
+            ]
+        ]
+    },
+    {
+        "id": "5d42ff5bccab6cff",
+        "type": "ui_slider",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "Farbtemperatur",
+        "tooltip": "",
+        "group": "f2ff7f3b41dbe157",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "2700",
+        "max": "6500",
+        "step": "100",
+        "className": "",
+        "x": 240,
+        "y": 3500,
+        "wires": [
+            [
+                "fc1007909cd79d58"
+            ]
+        ]
+    },
+    {
+        "id": "aecf0e63668ce6a8",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('fifthGroup')+\"/levelcontrol?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueLevel');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 3340,
+        "wires": [
+            [
+                "3f99dfd7baac2f4c"
+            ]
+        ]
+    },
+    {
+        "id": "e404fa20823ef095",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 910,
+        "y": 3340,
+        "wires": [
+            [
+                "aecf0e63668ce6a8"
+            ]
+        ]
+    },
+    {
+        "id": "c608fa4e61ec99a2",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('fifthGroup')+\"/levelcontrol?username=administrator\"+flow.get('valueLevel')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 3340,
+        "wires": [
+            [
+                "e404fa20823ef095"
+            ]
+        ]
+    },
+    {
+        "id": "f1fe76489ac3a803",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueLevel = flow.get('valueLevel') || 0;\nvalueLevel = \"{\\\"level\\\":\"+msg.payload+\"}\"\nflow.set('valueLevel', valueLevel)\nmsg.payload = valueLevel\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 3340,
+        "wires": [
+            [
+                "c608fa4e61ec99a2"
+            ]
+        ]
+    },
+    {
+        "id": "3f99dfd7baac2f4c",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1270,
+        "y": 3340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e2c8fb487c1f4129",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('fifthGroup')+\"/colorcontrol?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueColorTemperature');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 3500,
+        "wires": [
+            [
+                "dbaab9c8f199038b"
+            ]
+        ]
+    },
+    {
+        "id": "8740bc575cf58cb7",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 910,
+        "y": 3500,
+        "wires": [
+            [
+                "e2c8fb487c1f4129"
+            ]
+        ]
+    },
+    {
+        "id": "cd38fa7dc35a98a4",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('fifthGroup')+\"/colorcontrol?username=administrator\"+flow.get('valueColorTemperature')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 3500,
+        "wires": [
+            [
+                "8740bc575cf58cb7"
+            ]
+        ]
+    },
+    {
+        "id": "fc1007909cd79d58",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueColorTemperature = flow.get('valueColorTemperature') || 0;\nvalueColorTemperature = \"{\\\"colorTemperature\\\":{\\\"value\\\":\"+msg.payload+\"}}\"\nflow.set('valueColorTemperature', valueColorTemperature)\nmsg.payload = valueColorTemperature\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 3500,
+        "wires": [
+            [
+                "cd38fa7dc35a98a4"
+            ]
+        ]
+    },
+    {
+        "id": "dbaab9c8f199038b",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1270,
+        "y": 3500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "eb98ff92a2117c52",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "7dbd05de96374af8"
+        ],
+        "x": 95,
+        "y": 3160,
+        "wires": [
+            [
+                "002c466a068d5d74"
+            ]
+        ]
+    },
+    {
+        "id": "2954a8133db37a44",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "263cfaaccac60c72"
+        ],
+        "x": 95,
+        "y": 3340,
+        "wires": [
+            [
+                "daf31363c6c4fdb0"
+            ]
+        ]
+    },
+    {
+        "id": "b75bc1298d8875eb",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "9dfe1285e0fa73f4"
+        ],
+        "x": 95,
+        "y": 3500,
+        "wires": [
+            [
+                "5d42ff5bccab6cff"
+            ]
+        ]
+    },
+    {
+        "id": "47af547159a22e23",
+        "type": "ui_switch",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "An/Aus",
+        "tooltip": "",
+        "group": "25ef01ac4bbb820e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 240,
+        "y": 2580,
+        "wires": [
+            [
+                "dc9b609158919fb7"
+            ]
+        ]
+    },
+    {
+        "id": "f96271af60e0a472",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('fourthGroup')+\"/onoff?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueOnOff');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 2580,
+        "wires": [
+            [
+                "c8bf280c4c7043ec"
+            ]
+        ]
+    },
+    {
+        "id": "0549b3bf7d9c2cb0",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 910,
+        "y": 2580,
+        "wires": [
+            [
+                "f96271af60e0a472"
+            ]
+        ]
+    },
+    {
+        "id": "49e9c372bb38cb48",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('fourthGroup')+\"/onoff?username=administrator\"+flow.get('valueOnOff')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 2580,
+        "wires": [
+            [
+                "0549b3bf7d9c2cb0"
+            ]
+        ]
+    },
+    {
+        "id": "dc9b609158919fb7",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueOnOff = flow.get('valueOnOff') || 0;\nvalueOnOff = \"{\\\"on\\\":\"+msg.payload+\"}\"\nflow.set('valueOnOff', valueOnOff)\nmsg.payload = valueOnOff\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 2580,
+        "wires": [
+            [
+                "49e9c372bb38cb48"
+            ]
+        ]
+    },
+    {
+        "id": "c8bf280c4c7043ec",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1270,
+        "y": 2580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c11e0193ba5b537d",
+        "type": "ui_slider",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "Helligkeit",
+        "tooltip": "",
+        "group": "25ef01ac4bbb820e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "85",
+        "max": "254",
+        "step": 1,
+        "className": "",
+        "x": 240,
+        "y": 2760,
+        "wires": [
+            [
+                "9000f6133a70c330"
+            ]
+        ]
+    },
+    {
+        "id": "932dae998eaa7f8e",
+        "type": "ui_slider",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "Farbtemperatur",
+        "tooltip": "",
+        "group": "25ef01ac4bbb820e",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "2700",
+        "max": "6500",
+        "step": "100",
+        "className": "",
+        "x": 240,
+        "y": 2920,
+        "wires": [
+            [
+                "c875cd9cad265e88"
+            ]
+        ]
+    },
+    {
+        "id": "fb69c65a909149cd",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('fourthGroup')+\"/levelcontrol?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueLevel');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 2760,
+        "wires": [
+            [
+                "e2c31b5259182b89"
+            ]
+        ]
+    },
+    {
+        "id": "9c7a2434705cfe41",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 910,
+        "y": 2760,
+        "wires": [
+            [
+                "fb69c65a909149cd"
+            ]
+        ]
+    },
+    {
+        "id": "3d7178d07255a0e2",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('fourthGroup')+\"/levelcontrol?username=administrator\"+flow.get('valueLevel')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 2760,
+        "wires": [
+            [
+                "9c7a2434705cfe41"
+            ]
+        ]
+    },
+    {
+        "id": "9000f6133a70c330",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueLevel = flow.get('valueLevel') || 0;\nvalueLevel = \"{\\\"level\\\":\"+msg.payload+\"}\"\nflow.set('valueLevel', valueLevel)\nmsg.payload = valueLevel\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 2760,
+        "wires": [
+            [
+                "3d7178d07255a0e2"
+            ]
+        ]
+    },
+    {
+        "id": "e2c31b5259182b89",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1270,
+        "y": 2760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "afc979b34222153c",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('fourthGroup')+\"/colorcontrol?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueColorTemperature');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 2920,
+        "wires": [
+            [
+                "717632450c449fab"
+            ]
+        ]
+    },
+    {
+        "id": "f68208728bfacd62",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 910,
+        "y": 2920,
+        "wires": [
+            [
+                "afc979b34222153c"
+            ]
+        ]
+    },
+    {
+        "id": "0d6a9d143ef3830d",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('fourthGroup')+\"/colorcontrol?username=administrator\"+flow.get('valueColorTemperature')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 2920,
+        "wires": [
+            [
+                "f68208728bfacd62"
+            ]
+        ]
+    },
+    {
+        "id": "c875cd9cad265e88",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueColorTemperature = flow.get('valueColorTemperature') || 0;\nvalueColorTemperature = \"{\\\"colorTemperature\\\":{\\\"value\\\":\"+msg.payload+\"}}\"\nflow.set('valueColorTemperature', valueColorTemperature)\nmsg.payload = valueColorTemperature\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 2920,
+        "wires": [
+            [
+                "0d6a9d143ef3830d"
+            ]
+        ]
+    },
+    {
+        "id": "717632450c449fab",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1270,
+        "y": 2920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cb376c32d89d1433",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "7dbd05de96374af8"
+        ],
+        "x": 95,
+        "y": 2580,
+        "wires": [
+            [
+                "47af547159a22e23"
+            ]
+        ]
+    },
+    {
+        "id": "7158b54b399153c8",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "263cfaaccac60c72"
+        ],
+        "x": 95,
+        "y": 2760,
+        "wires": [
+            [
+                "c11e0193ba5b537d"
+            ]
+        ]
+    },
+    {
+        "id": "1c05343acc7f34c5",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "9dfe1285e0fa73f4"
+        ],
+        "x": 95,
+        "y": 2920,
+        "wires": [
+            [
+                "932dae998eaa7f8e"
+            ]
+        ]
+    },
+    {
+        "id": "9cd63c8668aa04b8",
+        "type": "ui_switch",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "An/Aus",
+        "tooltip": "",
+        "group": "858c0aea68258950",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 220,
+        "y": 380,
+        "wires": [
+            [
+                "95478b16f7344d97"
+            ]
+        ]
+    },
+    {
+        "id": "3cec266820cfaeea",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('firstGroup')+\"/onoff?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueOnOff');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 380,
+        "wires": [
+            [
+                "9e8b4f78dee7add5"
+            ]
+        ]
+    },
+    {
+        "id": "1ec22cf61f0b0b86",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 890,
+        "y": 380,
+        "wires": [
+            [
+                "3cec266820cfaeea"
+            ]
+        ]
+    },
+    {
+        "id": "582dd697e69ee26b",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('firstGroup')+\"/onoff?username=administrator\"+flow.get('valueOnOff')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 380,
+        "wires": [
+            [
+                "1ec22cf61f0b0b86"
+            ]
+        ]
+    },
+    {
+        "id": "95478b16f7344d97",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueOnOff = flow.get('valueOnOff') || 0;\nvalueOnOff = \"{\\\"on\\\":\"+msg.payload+\"}\"\nflow.set('valueOnOff', valueOnOff)\nmsg.payload = valueOnOff\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 380,
+        "wires": [
+            [
+                "582dd697e69ee26b"
+            ]
+        ]
+    },
+    {
+        "id": "9e8b4f78dee7add5",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1250,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2746011e9d6376b9",
+        "type": "ui_slider",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "Helligkeit",
+        "tooltip": "",
+        "group": "858c0aea68258950",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "85",
+        "max": "254",
+        "step": 1,
+        "className": "",
+        "x": 220,
+        "y": 560,
+        "wires": [
+            [
+                "2198836a19d361e0"
+            ]
+        ]
+    },
+    {
+        "id": "9c690cc236cbfcb4",
+        "type": "ui_slider",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "Farbtemperatur",
+        "tooltip": "",
+        "group": "858c0aea68258950",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "2700",
+        "max": "6500",
+        "step": "100",
+        "className": "",
+        "x": 220,
+        "y": 720,
+        "wires": [
+            [
+                "2ebedc84fd930206"
+            ]
+        ]
+    },
+    {
+        "id": "a59160c4fff65c24",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('firstGroup')+\"/levelcontrol?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueLevel');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 560,
+        "wires": [
+            [
+                "bcd8021fc728986f"
+            ]
+        ]
+    },
+    {
+        "id": "3d02413a7e8b5b05",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 890,
+        "y": 560,
+        "wires": [
+            [
+                "a59160c4fff65c24"
+            ]
+        ]
+    },
+    {
+        "id": "44d17d48a1ec9a87",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('firstGroup')+\"/levelcontrol?username=administrator\"+flow.get('valueLevel')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 560,
+        "wires": [
+            [
+                "3d02413a7e8b5b05"
+            ]
+        ]
+    },
+    {
+        "id": "2198836a19d361e0",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueLevel = flow.get('valueLevel') || 0;\nvalueLevel = \"{\\\"level\\\":\"+msg.payload+\"}\"\nflow.set('valueLevel', valueLevel)\nmsg.payload = valueLevel\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 560,
+        "wires": [
+            [
+                "44d17d48a1ec9a87"
+            ]
+        ]
+    },
+    {
+        "id": "bcd8021fc728986f",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1250,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "eabb32825198540e",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('firstGroup')+\"/colorcontrol?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueColorTemperature');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 720,
+        "wires": [
+            [
+                "5e346202116dc38f"
+            ]
+        ]
+    },
+    {
+        "id": "eb42173aef380d0b",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 890,
+        "y": 720,
+        "wires": [
+            [
+                "eabb32825198540e"
+            ]
+        ]
+    },
+    {
+        "id": "2f75210c17fe7fc3",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('firstGroup')+\"/colorcontrol?username=administrator\"+flow.get('valueColorTemperature')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 720,
+        "wires": [
+            [
+                "eb42173aef380d0b"
+            ]
+        ]
+    },
+    {
+        "id": "2ebedc84fd930206",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueColorTemperature = flow.get('valueColorTemperature') || 0;\nvalueColorTemperature = \"{\\\"colorTemperature\\\":{\\\"value\\\":\"+msg.payload+\"}}\"\nflow.set('valueColorTemperature', valueColorTemperature)\nmsg.payload = valueColorTemperature\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 720,
+        "wires": [
+            [
+                "2f75210c17fe7fc3"
+            ]
+        ]
+    },
+    {
+        "id": "5e346202116dc38f",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1250,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cb7dfa7e556cb3fe",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "7dbd05de96374af8"
+        ],
+        "x": 75,
+        "y": 380,
+        "wires": [
+            [
+                "9cd63c8668aa04b8"
+            ]
+        ]
+    },
+    {
+        "id": "fa9532fa28c4f6d5",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "263cfaaccac60c72"
+        ],
+        "x": 75,
+        "y": 560,
+        "wires": [
+            [
+                "2746011e9d6376b9"
+            ]
+        ]
+    },
+    {
+        "id": "5cf8fe93d6bcb72c",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "9dfe1285e0fa73f4"
+        ],
+        "x": 75,
+        "y": 720,
+        "wires": [
+            [
+                "9c690cc236cbfcb4"
+            ]
+        ]
+    },
+    {
+        "id": "39bcb72aeb14f538",
+        "type": "ui_switch",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "An/Aus",
+        "tooltip": "",
+        "group": "6620f865bc9d1edd",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 220,
+        "y": 940,
+        "wires": [
+            [
+                "c9418fe48a793fac"
+            ]
+        ]
+    },
+    {
+        "id": "f462b73bd5d4c68a",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('secondGroup')+\"/onoff?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueOnOff');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 940,
+        "wires": [
+            [
+                "c694fc3335a21b57"
+            ]
+        ]
+    },
+    {
+        "id": "1241c3237ca6f931",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 890,
+        "y": 940,
+        "wires": [
+            [
+                "f462b73bd5d4c68a"
+            ]
+        ]
+    },
+    {
+        "id": "b81811b8db38b5a5",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('secondGroup')+\"/onoff?username=administrator\"+flow.get('valueOnOff')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 940,
+        "wires": [
+            [
+                "1241c3237ca6f931"
+            ]
+        ]
+    },
+    {
+        "id": "c9418fe48a793fac",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueOnOff = flow.get('valueOnOff') || 0;\nvalueOnOff = \"{\\\"on\\\":\"+msg.payload+\"}\"\nflow.set('valueOnOff', valueOnOff)\nmsg.payload = valueOnOff\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 940,
+        "wires": [
+            [
+                "b81811b8db38b5a5"
+            ]
+        ]
+    },
+    {
+        "id": "c694fc3335a21b57",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1250,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "23cee320d05d1f13",
+        "type": "ui_slider",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "Helligkeit",
+        "tooltip": "",
+        "group": "6620f865bc9d1edd",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "85",
+        "max": "254",
+        "step": 1,
+        "className": "",
+        "x": 220,
+        "y": 1120,
+        "wires": [
+            [
+                "62a31cdac077639a"
+            ]
+        ]
+    },
+    {
+        "id": "8afbbdf515c60c1f",
+        "type": "ui_slider",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "Farbtemperatur",
+        "tooltip": "",
+        "group": "6620f865bc9d1edd",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "2700",
+        "max": "6500",
+        "step": "100",
+        "className": "",
+        "x": 220,
+        "y": 1280,
+        "wires": [
+            [
+                "672b0ad34adab28b"
+            ]
+        ]
+    },
+    {
+        "id": "c54b036a807fc20f",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('secondGroup')+\"/levelcontrol?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueLevel');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 1120,
+        "wires": [
+            [
+                "8d8d631ca789738b"
+            ]
+        ]
+    },
+    {
+        "id": "29c64f6127b4ea9a",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 890,
+        "y": 1120,
+        "wires": [
+            [
+                "c54b036a807fc20f"
+            ]
+        ]
+    },
+    {
+        "id": "7f9fcc265ccbee19",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('secondGroup')+\"/levelcontrol?username=administrator\"+flow.get('valueLevel')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 1120,
+        "wires": [
+            [
+                "29c64f6127b4ea9a"
+            ]
+        ]
+    },
+    {
+        "id": "62a31cdac077639a",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueLevel = flow.get('valueLevel') || 0;\nvalueLevel = \"{\\\"level\\\":\"+msg.payload+\"}\"\nflow.set('valueLevel', valueLevel)\nmsg.payload = valueLevel\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 1120,
+        "wires": [
+            [
+                "7f9fcc265ccbee19"
+            ]
+        ]
+    },
+    {
+        "id": "8d8d631ca789738b",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1250,
+        "y": 1120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c15bb6f25eab0c29",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('secondGroup')+\"/colorcontrol?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueColorTemperature');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 1280,
+        "wires": [
+            [
+                "ba5e11813626df2d"
+            ]
+        ]
+    },
+    {
+        "id": "2acaff51008f2216",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 890,
+        "y": 1280,
+        "wires": [
+            [
+                "c15bb6f25eab0c29"
+            ]
+        ]
+    },
+    {
+        "id": "e30c1a4bea979d1d",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('secondGroup')+\"/colorcontrol?username=administrator\"+flow.get('valueColorTemperature')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 1280,
+        "wires": [
+            [
+                "2acaff51008f2216"
+            ]
+        ]
+    },
+    {
+        "id": "672b0ad34adab28b",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueColorTemperature = flow.get('valueColorTemperature') || 0;\nvalueColorTemperature = \"{\\\"colorTemperature\\\":{\\\"value\\\":\"+msg.payload+\"}}\"\nflow.set('valueColorTemperature', valueColorTemperature)\nmsg.payload = valueColorTemperature\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 1280,
+        "wires": [
+            [
+                "e30c1a4bea979d1d"
+            ]
+        ]
+    },
+    {
+        "id": "ba5e11813626df2d",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1250,
+        "y": 1280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4e5070ced71b3fdf",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "7dbd05de96374af8"
+        ],
+        "x": 75,
+        "y": 940,
+        "wires": [
+            [
+                "39bcb72aeb14f538"
+            ]
+        ]
+    },
+    {
+        "id": "a6d90bfe3060c209",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "263cfaaccac60c72"
+        ],
+        "x": 75,
+        "y": 1120,
+        "wires": [
+            [
+                "23cee320d05d1f13"
+            ]
+        ]
+    },
+    {
+        "id": "f6408832bf2c50b9",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "9dfe1285e0fa73f4"
+        ],
+        "x": 75,
+        "y": 1280,
+        "wires": [
+            [
+                "8afbbdf515c60c1f"
+            ]
+        ]
+    },
+    {
+        "id": "37257f65af8f9a81",
+        "type": "ui_switch",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "An/Aus",
+        "tooltip": "",
+        "group": "6428582eb80bffc4",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 220,
+        "y": 1620,
+        "wires": [
+            [
+                "421fb7275d1daa4c"
+            ]
+        ]
+    },
+    {
+        "id": "4c29b7705a3e7f29",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('thirdGroup')+\"/onoff?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueOnOff');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 1620,
+        "wires": [
+            [
+                "1729b7d633fb1e7d"
+            ]
+        ]
+    },
+    {
+        "id": "f0bcb5605920142a",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 890,
+        "y": 1620,
+        "wires": [
+            [
+                "4c29b7705a3e7f29"
+            ]
+        ]
+    },
+    {
+        "id": "506e430d5251317a",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('thirdGroup')+\"/onoff?username=administrator\"+flow.get('valueOnOff')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 1620,
+        "wires": [
+            [
+                "f0bcb5605920142a"
+            ]
+        ]
+    },
+    {
+        "id": "421fb7275d1daa4c",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueOnOff = flow.get('valueOnOff') || 0;\nvalueOnOff = \"{\\\"on\\\":\"+msg.payload+\"}\"\nflow.set('valueOnOff', valueOnOff)\nmsg.payload = valueOnOff\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 1620,
+        "wires": [
+            [
+                "506e430d5251317a"
+            ]
+        ]
+    },
+    {
+        "id": "1729b7d633fb1e7d",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1250,
+        "y": 1620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "498fc40b1d923a29",
+        "type": "ui_slider",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "Helligkeit",
+        "tooltip": "",
+        "group": "6428582eb80bffc4",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "85",
+        "max": "254",
+        "step": 1,
+        "className": "",
+        "x": 220,
+        "y": 1800,
+        "wires": [
+            [
+                "77a45d9c80e4bd52"
+            ]
+        ]
+    },
+    {
+        "id": "362e90a725877ed9",
+        "type": "ui_slider",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "Farbtemperatur",
+        "tooltip": "",
+        "group": "6428582eb80bffc4",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "2700",
+        "max": "6500",
+        "step": "100",
+        "className": "",
+        "x": 220,
+        "y": 1960,
+        "wires": [
+            [
+                "e646e65126b5b48a"
+            ]
+        ]
+    },
+    {
+        "id": "94662a6a5ec8edb7",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('thirdGroup')+\"/levelcontrol?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueLevel');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 1800,
+        "wires": [
+            [
+                "136449728ef6b99e"
+            ]
+        ]
+    },
+    {
+        "id": "295536411c279e98",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 890,
+        "y": 1800,
+        "wires": [
+            [
+                "94662a6a5ec8edb7"
+            ]
+        ]
+    },
+    {
+        "id": "e669dd607c8f7c04",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('thirdGroup')+\"/levelcontrol?username=administrator\"+flow.get('valueLevel')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 1800,
+        "wires": [
+            [
+                "295536411c279e98"
+            ]
+        ]
+    },
+    {
+        "id": "77a45d9c80e4bd52",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueLevel = flow.get('valueLevel') || 0;\nvalueLevel = \"{\\\"level\\\":\"+msg.payload+\"}\"\nflow.set('valueLevel', valueLevel)\nmsg.payload = valueLevel\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 1800,
+        "wires": [
+            [
+                "e669dd607c8f7c04"
+            ]
+        ]
+    },
+    {
+        "id": "136449728ef6b99e",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1250,
+        "y": 1800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c4177bfe33ac1f37",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('thirdGroup')+\"/colorcontrol?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueColorTemperature');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 1960,
+        "wires": [
+            [
+                "65830d5dcfabb55c"
+            ]
+        ]
+    },
+    {
+        "id": "07bb978bb32d0fa1",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 890,
+        "y": 1960,
+        "wires": [
+            [
+                "c4177bfe33ac1f37"
+            ]
+        ]
+    },
+    {
+        "id": "4635a55ddcbcfc15",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('thirdGroup')+\"/colorcontrol?username=administrator\"+flow.get('valueColorTemperature')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 1960,
+        "wires": [
+            [
+                "07bb978bb32d0fa1"
+            ]
+        ]
+    },
+    {
+        "id": "e646e65126b5b48a",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueColorTemperature = flow.get('valueColorTemperature') || 0;\nvalueColorTemperature = \"{\\\"colorTemperature\\\":{\\\"value\\\":\"+msg.payload+\"}}\"\nflow.set('valueColorTemperature', valueColorTemperature)\nmsg.payload = valueColorTemperature\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 1960,
+        "wires": [
+            [
+                "4635a55ddcbcfc15"
+            ]
+        ]
+    },
+    {
+        "id": "65830d5dcfabb55c",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1250,
+        "y": 1960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c9a1cec58e8fb6ce",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "7dbd05de96374af8"
+        ],
+        "x": 75,
+        "y": 1620,
+        "wires": [
+            [
+                "37257f65af8f9a81"
+            ]
+        ]
+    },
+    {
+        "id": "8cc01941bbc4d1dc",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "263cfaaccac60c72"
+        ],
+        "x": 75,
+        "y": 1800,
+        "wires": [
+            [
+                "498fc40b1d923a29"
+            ]
+        ]
+    },
+    {
+        "id": "17ceadd8ca2c9e40",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "9dfe1285e0fa73f4"
+        ],
+        "x": 75,
+        "y": 1960,
+        "wires": [
+            [
+                "362e90a725877ed9"
+            ]
+        ]
+    },
+    {
+        "id": "f0a2dac3f9f1d168",
+        "type": "ui_switch",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "An/Aus",
+        "tooltip": "",
+        "group": "d6274d94444edfde",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 240,
+        "y": 3780,
+        "wires": [
+            [
+                "c822dfec8a029b1a"
+            ]
+        ]
+    },
+    {
+        "id": "3635e02dd530677f",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('sixthGroup')+\"/onoff?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueOnOff');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 3780,
+        "wires": [
+            [
+                "d297d6afa1c1798e"
+            ]
+        ]
+    },
+    {
+        "id": "57af6ae18a9cb15a",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 910,
+        "y": 3780,
+        "wires": [
+            [
+                "3635e02dd530677f"
+            ]
+        ]
+    },
+    {
+        "id": "eebe551714812ebc",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('sixthGroup')+\"/onoff?username=administrator\"+flow.get('valueOnOff')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 3780,
+        "wires": [
+            [
+                "57af6ae18a9cb15a"
+            ]
+        ]
+    },
+    {
+        "id": "c822dfec8a029b1a",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueOnOff = flow.get('valueOnOff') || 0;\nvalueOnOff = \"{\\\"on\\\":\"+msg.payload+\"}\"\nflow.set('valueOnOff', valueOnOff)\nmsg.payload = valueOnOff\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 3780,
+        "wires": [
+            [
+                "eebe551714812ebc"
+            ]
+        ]
+    },
+    {
+        "id": "d297d6afa1c1798e",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1270,
+        "y": 3780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8393ce4193f0b538",
+        "type": "ui_slider",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "Helligkeit",
+        "tooltip": "",
+        "group": "d6274d94444edfde",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "85",
+        "max": "254",
+        "step": 1,
+        "className": "",
+        "x": 240,
+        "y": 3960,
+        "wires": [
+            [
+                "cfc7801a20381a90"
+            ]
+        ]
+    },
+    {
+        "id": "57fe1a2147406f41",
+        "type": "ui_slider",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "Farbtemperatur",
+        "tooltip": "",
+        "group": "d6274d94444edfde",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "2700",
+        "max": "6500",
+        "step": "100",
+        "className": "",
+        "x": 240,
+        "y": 4120,
+        "wires": [
+            [
+                "585430766093a0a1"
+            ]
+        ]
+    },
+    {
+        "id": "e1463db3ec24a73b",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('sixthGroup')+\"/levelcontrol?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueLevel');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 3960,
+        "wires": [
+            [
+                "d1e594c7de15618e"
+            ]
+        ]
+    },
+    {
+        "id": "a69baac82bb23470",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 910,
+        "y": 3960,
+        "wires": [
+            [
+                "e1463db3ec24a73b"
+            ]
+        ]
+    },
+    {
+        "id": "6ee8bca17d36b23b",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('sixthGroup')+\"/levelcontrol?username=administrator\"+flow.get('valueLevel')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 3960,
+        "wires": [
+            [
+                "a69baac82bb23470"
+            ]
+        ]
+    },
+    {
+        "id": "cfc7801a20381a90",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueLevel = flow.get('valueLevel') || 0;\nvalueLevel = \"{\\\"level\\\":\"+msg.payload+\"}\"\nflow.set('valueLevel', valueLevel)\nmsg.payload = valueLevel\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 3960,
+        "wires": [
+            [
+                "6ee8bca17d36b23b"
+            ]
+        ]
+    },
+    {
+        "id": "d1e594c7de15618e",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1270,
+        "y": 3960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f95fba31df1a74a7",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('sixthGroup')+\"/colorcontrol?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueColorTemperature');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 4120,
+        "wires": [
+            [
+                "1866a2d7e3371acb"
+            ]
+        ]
+    },
+    {
+        "id": "2221d3ef7d9b4795",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 910,
+        "y": 4120,
+        "wires": [
+            [
+                "f95fba31df1a74a7"
+            ]
+        ]
+    },
+    {
+        "id": "737517c9336d7269",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('sixthGroup')+\"/colorcontrol?username=administrator\"+flow.get('valueColorTemperature')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 4120,
+        "wires": [
+            [
+                "2221d3ef7d9b4795"
+            ]
+        ]
+    },
+    {
+        "id": "585430766093a0a1",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueColorTemperature = flow.get('valueColorTemperature') || 0;\nvalueColorTemperature = \"{\\\"colorTemperature\\\":{\\\"value\\\":\"+msg.payload+\"}}\"\nflow.set('valueColorTemperature', valueColorTemperature)\nmsg.payload = valueColorTemperature\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 4120,
+        "wires": [
+            [
+                "737517c9336d7269"
+            ]
+        ]
+    },
+    {
+        "id": "1866a2d7e3371acb",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1270,
+        "y": 4120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6047bcccb2798703",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "7dbd05de96374af8"
+        ],
+        "x": 95,
+        "y": 3780,
+        "wires": [
+            [
+                "f0a2dac3f9f1d168"
+            ]
+        ]
+    },
+    {
+        "id": "f14e0b15a3ae136f",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "263cfaaccac60c72"
+        ],
+        "x": 95,
+        "y": 3960,
+        "wires": [
+            [
+                "8393ce4193f0b538"
+            ]
+        ]
+    },
+    {
+        "id": "a862c60b90cbb3d7",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "9dfe1285e0fa73f4"
+        ],
+        "x": 95,
+        "y": 4120,
+        "wires": [
+            [
+                "57fe1a2147406f41"
+            ]
+        ]
+    },
+    {
+        "id": "ef9280206da6bf22",
+        "type": "ui_switch",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "An/Aus",
+        "tooltip": "",
+        "group": "c65dd294a06f284c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 240,
+        "y": 4380,
+        "wires": [
+            [
+                "0ede7f52bc1c75cd"
+            ]
+        ]
+    },
+    {
+        "id": "dc19ec3ca3de39d6",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('seventhGroup')+\"/onoff?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueOnOff');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 4380,
+        "wires": [
+            [
+                "6b26fd994bc6bbcf"
+            ]
+        ]
+    },
+    {
+        "id": "13d5134263830812",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 910,
+        "y": 4380,
+        "wires": [
+            [
+                "dc19ec3ca3de39d6"
+            ]
+        ]
+    },
+    {
+        "id": "0dbf3fae34d64b7f",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('seventhGroup')+\"/onoff?username=administrator\"+flow.get('valueOnOff')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 4380,
+        "wires": [
+            [
+                "13d5134263830812"
+            ]
+        ]
+    },
+    {
+        "id": "0ede7f52bc1c75cd",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueOnOff = flow.get('valueOnOff') || 0;\nvalueOnOff = \"{\\\"on\\\":\"+msg.payload+\"}\"\nflow.set('valueOnOff', valueOnOff)\nmsg.payload = valueOnOff\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 4380,
+        "wires": [
+            [
+                "0dbf3fae34d64b7f"
+            ]
+        ]
+    },
+    {
+        "id": "6b26fd994bc6bbcf",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1270,
+        "y": 4380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "608052b67e8a1a60",
+        "type": "ui_slider",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "Helligkeit",
+        "tooltip": "",
+        "group": "c65dd294a06f284c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "85",
+        "max": "254",
+        "step": 1,
+        "className": "",
+        "x": 240,
+        "y": 4560,
+        "wires": [
+            [
+                "b499aa82a35a242d"
+            ]
+        ]
+    },
+    {
+        "id": "eaf75a1d018b6ab5",
+        "type": "ui_slider",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "Farbtemperatur",
+        "tooltip": "",
+        "group": "c65dd294a06f284c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "2700",
+        "max": "6500",
+        "step": "100",
+        "className": "",
+        "x": 240,
+        "y": 4720,
+        "wires": [
+            [
+                "5b8ab71f0c846381"
+            ]
+        ]
+    },
+    {
+        "id": "d9f20ada9ef37909",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('seventhGroup')+\"/levelcontrol?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueLevel');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 4560,
+        "wires": [
+            [
+                "952d84cdd2686f3f"
+            ]
+        ]
+    },
+    {
+        "id": "79b66961aaf4e46b",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 910,
+        "y": 4560,
+        "wires": [
+            [
+                "d9f20ada9ef37909"
+            ]
+        ]
+    },
+    {
+        "id": "e32d8d0757bc85e7",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('seventhGroup')+\"/levelcontrol?username=administrator\"+flow.get('valueLevel')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 4560,
+        "wires": [
+            [
+                "79b66961aaf4e46b"
+            ]
+        ]
+    },
+    {
+        "id": "b499aa82a35a242d",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueLevel = flow.get('valueLevel') || 0;\nvalueLevel = \"{\\\"level\\\":\"+msg.payload+\"}\"\nflow.set('valueLevel', valueLevel)\nmsg.payload = valueLevel\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 4560,
+        "wires": [
+            [
+                "e32d8d0757bc85e7"
+            ]
+        ]
+    },
+    {
+        "id": "952d84cdd2686f3f",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1270,
+        "y": 4560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9ab8d2fa43a4e3c0",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('seventhGroup')+\"/colorcontrol?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueColorTemperature');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 4720,
+        "wires": [
+            [
+                "147d3f56f11e9f15"
+            ]
+        ]
+    },
+    {
+        "id": "a9d0d51410571936",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 910,
+        "y": 4720,
+        "wires": [
+            [
+                "9ab8d2fa43a4e3c0"
+            ]
+        ]
+    },
+    {
+        "id": "d7ba22dd0101beb6",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('seventhGroup')+\"/colorcontrol?username=administrator\"+flow.get('valueColorTemperature')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 4720,
+        "wires": [
+            [
+                "a9d0d51410571936"
+            ]
+        ]
+    },
+    {
+        "id": "5b8ab71f0c846381",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueColorTemperature = flow.get('valueColorTemperature') || 0;\nvalueColorTemperature = \"{\\\"colorTemperature\\\":{\\\"value\\\":\"+msg.payload+\"}}\"\nflow.set('valueColorTemperature', valueColorTemperature)\nmsg.payload = valueColorTemperature\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 4720,
+        "wires": [
+            [
+                "d7ba22dd0101beb6"
+            ]
+        ]
+    },
+    {
+        "id": "147d3f56f11e9f15",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1270,
+        "y": 4720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "64c337d40e0a8ae1",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "7dbd05de96374af8"
+        ],
+        "x": 95,
+        "y": 4380,
+        "wires": [
+            [
+                "ef9280206da6bf22"
+            ]
+        ]
+    },
+    {
+        "id": "6ad7dc8f33557dc7",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "263cfaaccac60c72"
+        ],
+        "x": 95,
+        "y": 4560,
+        "wires": [
+            [
+                "608052b67e8a1a60"
+            ]
+        ]
+    },
+    {
+        "id": "9725282d984778f3",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "9dfe1285e0fa73f4"
+        ],
+        "x": 95,
+        "y": 4720,
+        "wires": [
+            [
+                "eaf75a1d018b6ab5"
+            ]
+        ]
+    },
+    {
+        "id": "f5b4fd5814242886",
+        "type": "ui_switch",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "An/Aus",
+        "tooltip": "",
+        "group": "1a3328def66ff31e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 1600,
+        "y": 4380,
+        "wires": [
+            [
+                "e93bd985348919a9"
+            ]
+        ]
+    },
+    {
+        "id": "ed4f3651b1620a63",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('eighthGroup')+\"/onoff?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueOnOff');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2440,
+        "y": 4380,
+        "wires": [
+            [
+                "578e7b8349af1af6"
+            ]
+        ]
+    },
+    {
+        "id": "47c541dff945a3e3",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 2270,
+        "y": 4380,
+        "wires": [
+            [
+                "ed4f3651b1620a63"
+            ]
+        ]
+    },
+    {
+        "id": "7c31dedb305c2def",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('eighthGroup')+\"/onoff?username=administrator\"+flow.get('valueOnOff')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2040,
+        "y": 4380,
+        "wires": [
+            [
+                "47c541dff945a3e3"
+            ]
+        ]
+    },
+    {
+        "id": "e93bd985348919a9",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueOnOff = flow.get('valueOnOff') || 0;\nvalueOnOff = \"{\\\"on\\\":\"+msg.payload+\"}\"\nflow.set('valueOnOff', valueOnOff)\nmsg.payload = valueOnOff\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1790,
+        "y": 4380,
+        "wires": [
+            [
+                "7c31dedb305c2def"
+            ]
+        ]
+    },
+    {
+        "id": "578e7b8349af1af6",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 2630,
+        "y": 4380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8bfa01c00c49d476",
+        "type": "ui_slider",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "Helligkeit",
+        "tooltip": "",
+        "group": "1a3328def66ff31e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "85",
+        "max": "254",
+        "step": 1,
+        "className": "",
+        "x": 1600,
+        "y": 4560,
+        "wires": [
+            [
+                "c4e82631c01fcd8d"
+            ]
+        ]
+    },
+    {
+        "id": "2833dc0d2c40de9f",
+        "type": "ui_slider",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "label": "Farbtemperatur",
+        "tooltip": "",
+        "group": "1a3328def66ff31e",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "2700",
+        "max": "6500",
+        "step": "100",
+        "className": "",
+        "x": 1600,
+        "y": 4720,
+        "wires": [
+            [
+                "0582f83fbd4b9e38"
+            ]
+        ]
+    },
+    {
+        "id": "6a5155e37aa0ff93",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('eighthGroup')+\"/levelcontrol?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueLevel');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2440,
+        "y": 4560,
+        "wires": [
+            [
+                "3ac6d9df55f161a5"
+            ]
+        ]
+    },
+    {
+        "id": "9f759658077de16f",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 2270,
+        "y": 4560,
+        "wires": [
+            [
+                "6a5155e37aa0ff93"
+            ]
+        ]
+    },
+    {
+        "id": "a6c722c2fedc66d8",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('eighthGroup')+\"/levelcontrol?username=administrator\"+flow.get('valueLevel')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2040,
+        "y": 4560,
+        "wires": [
+            [
+                "9f759658077de16f"
+            ]
+        ]
+    },
+    {
+        "id": "c4e82631c01fcd8d",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueLevel = flow.get('valueLevel') || 0;\nvalueLevel = \"{\\\"level\\\":\"+msg.payload+\"}\"\nflow.set('valueLevel', valueLevel)\nmsg.payload = valueLevel\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1790,
+        "y": 4560,
+        "wires": [
+            [
+                "a6c722c2fedc66d8"
+            ]
+        ]
+    },
+    {
+        "id": "3ac6d9df55f161a5",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 2630,
+        "y": 4560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3e84cd8c91a5a911",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.url= \"https://\"+flow.get('ip')+\"/rest/devices/lights/groups/\"+flow.get('eighthGroup')+\"/colorcontrol?username=administrator&hmac=\"+msg.payload\nmsg.payload= flow.get('valueColorTemperature');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2440,
+        "y": 4720,
+        "wires": [
+            [
+                "2a9d4cb21cf86c9d"
+            ]
+        ]
+    },
+    {
+        "id": "e4b9be9248fbadc0",
+        "type": "hmac",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "algorithm": "HmacSHA1",
+        "key": "livelink",
+        "x": 2270,
+        "y": 4720,
+        "wires": [
+            [
+                "3e84cd8c91a5a911"
+            ]
+        ]
+    },
+    {
+        "id": "0fcf81220eef6f1c",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload= \"rest/devices/lights/groups/\"+flow.get('eighthGroup')+\"/colorcontrol?username=administrator\"+flow.get('valueColorTemperature')\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2040,
+        "y": 4720,
+        "wires": [
+            [
+                "e4b9be9248fbadc0"
+            ]
+        ]
+    },
+    {
+        "id": "0582f83fbd4b9e38",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var valueColorTemperature = flow.get('valueColorTemperature') || 0;\nvalueColorTemperature = \"{\\\"colorTemperature\\\":{\\\"value\\\":\"+msg.payload+\"}}\"\nflow.set('valueColorTemperature', valueColorTemperature)\nmsg.payload = valueColorTemperature\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1790,
+        "y": 4720,
+        "wires": [
+            [
+                "0fcf81220eef6f1c"
+            ]
+        ]
+    },
+    {
+        "id": "2a9d4cb21cf86c9d",
+        "type": "http request",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "method": "PUT",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d1651090c8df419",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 2630,
+        "y": 4720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "290d3c65d2423e59",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "7dbd05de96374af8"
+        ],
+        "x": 1455,
+        "y": 4380,
+        "wires": [
+            [
+                "f5b4fd5814242886"
+            ]
+        ]
+    },
+    {
+        "id": "93944e7f45406aac",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "263cfaaccac60c72"
+        ],
+        "x": 1455,
+        "y": 4560,
+        "wires": [
+            [
+                "8bfa01c00c49d476"
+            ]
+        ]
+    },
+    {
+        "id": "c57547c52588afa6",
+        "type": "link in",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "links": [
+            "9dfe1285e0fa73f4"
+        ],
+        "x": 1455,
+        "y": 4720,
+        "wires": [
+            [
+                "2833dc0d2c40de9f"
+            ]
+        ]
+    },
+    {
+        "id": "29781c6d8150b921",
+        "type": "inject",
+        "z": "5f4ad33e7a7afb18",
+        "name": "Gruppe 4",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "e1679bc1-96f0-46cc-8f0b-cd90832ad016",
+        "payloadType": "str",
+        "x": 240,
+        "y": 260,
+        "wires": [
+            [
+                "3b4a37442d036c66"
+            ]
+        ]
+    },
+    {
+        "id": "3b4a37442d036c66",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var fourthGroup = flow.get('fourthGroup') || 0;\nfourthGroup = msg.payload\nflow.set('fourthGroup', fourthGroup)\nmsg.payload = fourthGroup\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c877036ab6b702a5",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var fifthGroup = flow.get('fifthGroup') || 0;\nfifthGroup = msg.payload\nflow.set('fifthGroup', fifthGroup)\nmsg.payload = fifthGroup\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3a04e895d08383dd",
+        "type": "inject",
+        "z": "5f4ad33e7a7afb18",
+        "name": "Gruppe 5",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "4c0bf057-74ef-4943-aefe-93c84893a6f3",
+        "payloadType": "str",
+        "x": 240,
+        "y": 300,
+        "wires": [
+            [
+                "c877036ab6b702a5"
+            ]
+        ]
+    },
+    {
+        "id": "76a7a5e3240ed200",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var sixthGroup = flow.get('sixthGroup') || 0;\nsixthGroup = msg.payload\nflow.set('sixthGroup', sixthGroup)\nmsg.payload = sixthGroup\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d3c5e2f4f1134574",
+        "type": "inject",
+        "z": "5f4ad33e7a7afb18",
+        "name": "Gruppe 6",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "5ac6e8e0-4e43-4863-b24a-fe588767956a",
+        "payloadType": "str",
+        "x": 560,
+        "y": 100,
+        "wires": [
+            [
+                "76a7a5e3240ed200"
+            ]
+        ]
+    },
+    {
+        "id": "58470a07492c16ae",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var seventhGroup = flow.get('seventhGroup') || 0;\nseventhGroup = msg.payload\nflow.set('seventhGroup', seventhGroup)\nmsg.payload = seventhGroup\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c922a824318dfc95",
+        "type": "inject",
+        "z": "5f4ad33e7a7afb18",
+        "name": "Gruppe 7",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "b427b333-d680-464c-bd66-b87f09e22deb",
+        "payloadType": "str",
+        "x": 560,
+        "y": 140,
+        "wires": [
+            [
+                "58470a07492c16ae"
+            ]
+        ]
+    },
+    {
+        "id": "92068e53e0bdf5c6",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "var eighthGroup = flow.get('eighthGroup') || 0;\neighthGroup = msg.payload\nflow.set('eighthGroup', eighthGroup)\nmsg.payload = eighthGroup\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bfaa45be415d3651",
+        "type": "inject",
+        "z": "5f4ad33e7a7afb18",
+        "name": "Gruppe 8",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "414b556d-4bde-4e3a-b188-b85406185556",
+        "payloadType": "str",
+        "x": 560,
+        "y": 180,
+        "wires": [
+            [
+                "92068e53e0bdf5c6"
+            ]
+        ]
+    },
+    {
+        "id": "6ae94cdae2cf94d7",
+        "type": "knxEasy-in",
+        "z": "5f4ad33e7a7afb18",
+        "server": "c52e3f39321601d4",
+        "topic": "10/1/1",
+        "dpt": "5.005",
+        "initialread": false,
+        "notifyreadrequest": false,
+        "notifyresponse": false,
+        "notifywrite": true,
+        "name": "",
+        "x": 90,
+        "y": 2380,
+        "wires": [
+            [
+                "f0834a35f409d4e1"
+            ]
+        ]
+    },
+    {
+        "id": "29c907cbf4c8b6fb",
+        "type": "knxEasy-in",
+        "z": "5f4ad33e7a7afb18",
+        "server": "adbaa5a8a3dbf76d",
+        "topic": "10/1/0",
+        "dpt": "1.001",
+        "initialread": false,
+        "notifyreadrequest": false,
+        "notifyresponse": false,
+        "notifywrite": true,
+        "name": "",
+        "x": 70,
+        "y": 2240,
+        "wires": [
+            [
+                "ddd05e7f5035b384"
+            ]
+        ]
+    },
+    {
+        "id": "f0834a35f409d4e1",
+        "type": "function",
+        "z": "5f4ad33e7a7afb18",
+        "name": "",
+        "func": "msg.payload = msg.payload*2.56\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 2380,
+        "wires": [
+            [
+                "24d80eac4960ac07"
+            ]
+        ]
+    },
+    {
+        "id": "9a603084bdaa05b5",
+        "type": "inject",
+        "z": "5f4ad33e7a7afb18",
+        "name": "IP-Adresse",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "192.168.1.25:8443",
+        "payloadType": "str",
+        "x": 230,
+        "y": 100,
+        "wires": [
+            [
+                "2ef88d9f01bf5ed1"
+            ]
+        ]
+    }
+]
